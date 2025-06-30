@@ -1,0 +1,197 @@
+body{
+      background-color:black;
+      z-index: -100;
+      height:1900px;
+      width:1200px;
+    }
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .header{
+      position: fixed;
+      top:0px;
+      left:0px;
+      right:0px;
+      height:80px;
+      background-color:#161616;
+      z-index: 100;
+    }
+    .left-section{
+      height:50px;
+      width:300px;
+      display: flex;
+      justify-content: center;
+    }
+    .my-profile-text{
+      font-family: "poppins",sans-serif;
+      font-size: 50px;
+      color: aqua;
+      font-weight: 700;
+      border-bottom: 3px solid transparent;
+      transition: 0.5s ease;
+      text-decoration: none;
+    }
+    .my-profile-text:hover{
+      transform: scale(1.1);
+    }
+    .right-section{
+      height:50px;
+      width:600px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      right:0px;
+      top:15px;
+      margin-right: 20px;
+    }
+    .all-links{
+      text-decoration: none;
+      font-family: poppins;
+      color:white;
+      font-weight: 600;
+      border-bottom: 3px solid transparent;
+      transition: border-bottom 0.3s,transform 0.3s;
+    }
+    .right-section a:hover{
+      border-bottom: 3px solid aqua;
+      border-bottom-left-radius:1.4px;
+      border-bottom-right-radius:1.4px;
+      transform: scale(1.1);
+      color:aqua;
+    }
+    .main-body{
+      margin-top: 100px;
+    }
+    .heading{
+      height:60px;
+      width:300px;
+      /* background-color: aliceblue; */
+      display: flex;
+      align-items: center;
+      
+    }
+    .heading p{
+      font-size: 35px;
+      font-family: poppins;
+      color: aqua;
+      font-weight: 700;
+      margin-left: 15px;
+      transition: transform 0.5s;
+    }
+    .about-heading:hover{
+      transform:scale(1.1);
+      cursor: pointer;
+    }
+    .myself-description-container{
+      height:300px;
+      width:100%;
+      /* background-color:white ; */
+      color:white;
+      font-family: poppins;
+      margin-left: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .profile-pic{
+      height:350px;
+      width:350px;
+      border-radius: 50%;
+      margin-top: -40px;
+      margin-right: 40px;
+      transition: box-shadow 0.5s;
+    }
+    .profile-pic:hover{
+      box-shadow: 0 0 25px aqua;
+    }
+    .myself-description-container p{
+      width:800px;
+      margin-top: 20px;
+    }
+    .heading-2 p{
+      font-size: 35px;
+      font-family: poppins;
+      color: aqua;
+      font-weight: 700;
+      margin-left: 15px;
+      margin-top:50px;
+      transition: transform 0.5s ease;
+      width:200px;
+    }
+    .skills-heading:hover{
+      transform:scaleX(1.1);
+      cursor: pointer;
+    }
+    .heading-3 p{
+      font-size: 40px;
+      font-family: poppins;
+      color: aqua;
+      font-weight: 700;
+      width:100px;
+      margin-left: 15px;
+      margin-top:50px;
+      transition: transform 0.3s;
+    }
+    .my-skills-container{
+     display: flex;
+    }
+    .html-pic , .css-pic , .javascript-pic{
+      margin-top: 20px;
+      height:280px;
+      width:380px;
+      border-radius: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      transition: transform 0.5s;
+      box-shadow:0 0 20px aqua;
+    }
+    .my-skills-container img:hover{
+      cursor: pointer;
+      transform: scale(0.9);
+    }
+    .projects-container{
+      width:100%;
+      /* background-color: #161616; */
+      height:1000px;
+      display: flex;
+      flex-direction: column;
+    }
+    .projects-heading:hover{
+      transform: scale(1.1);
+    }
+    .projects-container img{
+      height:300px;
+      width:400px;
+      object-fit: cover;
+      scroll-behavior: smooth;
+      border-radius: 20px;
+    }
+    .projects-container h3{
+      color:aqua;
+      font-family: poppins;
+      font-size: 25px;margin-left: 50px;
+    }
+    .projects-container p{
+      color:white;
+      font-family: poppins;
+      font-size: 15px;
+      margin-left: 50px;
+    }
+    .project-boxes{
+      margin-top: 30px;
+      margin-left: 15px;
+      display: flex;
+      justify-content: space-between;
+      box-shadow:0 0 10px aqua;
+    }
+    .home-bar{
+      text-decoration: none;
+      transform: scale(1.1);
+      color:aqua;
+      font-family: poppins;
+      font-weight:600;
+      border-bottom: 3px solid aqua;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }

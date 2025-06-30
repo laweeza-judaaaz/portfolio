@@ -1,0 +1,145 @@
+body{
+      background-color:black;
+      z-index: -100;
+      height:600px;
+    }
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .header{
+      position: fixed;
+      top:0px;
+      left:0px;
+      right:0px;
+      height:80px;
+      background-color:#161616;
+      z-index: 100;
+    }
+    .left-section{
+      height:50px;
+      width:300px;
+      display: flex;
+      justify-content: center;
+    }
+    .my-profile-text{
+      font-family: "poppins",sans-serif;
+      font-size: 50px;
+      color: aqua;
+      font-weight: 700;
+      border-bottom: 3px solid transparent;
+      transition: 0.5s ease;
+      text-decoration: none;
+    }
+    .my-profile-text:hover{
+      transform: scale(1.1);
+    }
+    .right-section{
+      height:50px;
+      width:600px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      right:0px;
+      top:15px;
+      margin-right: 20px;
+    }
+    .all-links{
+      text-decoration: none;
+      font-family: poppins;
+      color:white;
+      font-weight: 600;
+      border-bottom: 3px solid transparent;
+      transition: border-bottom 0.3s,transform 0.3s;
+    }
+    .right-section a:hover{
+      border-bottom: 3px solid aqua;
+      border-bottom-left-radius:1.4px;
+      border-bottom-right-radius:1.4px;
+      transform: scale(1.1);
+      color:aqua;
+    }
+    .contact-bar{
+      text-decoration: none;
+      transform: scale(1.1);
+      color:aqua;
+      font-family: poppins;
+      font-weight:600;
+      border-bottom: 3px solid aqua;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+    .main-body{
+      margin-top:100px;
+    }
+    .main-heading{
+      height:60px;
+      width:490px;
+    }
+    .main-heading p{
+      color:aqua;
+      font-size: 40px;
+      margin-left: 15px;
+      font-family: poppins;
+      font-weight: 700;
+      transition: transform 0.5s;
+    }
+    .main-heading-text:hover{
+      transform: scale(1.1);
+    }
+    .contacts-container{
+      height:500px;
+      width:700px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 35px;
+    }
+    .contacts-container div{
+      height:100px;
+      width:600px;
+      margin-top: 20px;
+      /* background-color: #161616; */
+      margin-bottom: 20px;
+      margin-left: -5px;
+      display: flex;
+      align-items: center;
+    }
+    .social-links{
+      margin-left: 50px;
+      font-size: 50px;
+      color:aqua;
+      border:2px solid aqua;
+      height:60px;
+      width:60px;
+      padding-left: 15px;
+      padding-top: 10px;
+      border-radius: 50%;
+      border-width: 3px;
+      transition: 0.3s ease;
+    }
+    .social-links:hover{
+      color:black;
+      transform: scale(1.3)translateY(-5px);
+      background-color: aqua;
+      box-shadow: 0 0 25px aqua;
+    }
+    .instagram-box p,.twitter-box p,.linkedin-box p,.github-box p{
+      margin-left: 50px;
+      font-family: poppins;
+      
+      border-bottom-width:0px ;
+      font-size: 20px;
+    }
+    .instagram-box p,.twitter-box p,.linkedin-box p,.github-box p{
+      text-decoration: none;
+      color:white;
+      transition: border-bottom 0.3s , color 0.3s;
+    }
+    
+    .instagram-box p:hover,.twitter-box p:hover,.linkedin-box p:hover,.github-box p:hover{
+      color:aqua;
+      border-bottom:4px solid aqua;
+      border-bottom-left-radius:3px ;
+      border-bottom-right-radius:3px ;
+    }
